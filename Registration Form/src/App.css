@@ -1,0 +1,136 @@
+/* Page background */
+body {
+  margin: 0;
+  padding: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f4f6f9;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+}
+
+/* Form container */
+form {
+  background: #ffffff;
+  width: 100%;
+  max-width: 520px;
+}
+
+/* Fieldset styling */
+fieldset {
+  border: 2px solid #e5e7eb;
+  border-radius: 14px;
+  padding: 25px 28px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+}
+
+/* Legend styling */
+legend {
+  padding: 0 10px;
+  font-size: 24px;
+  font-weight: 700;
+  color: #1f2937;
+}
+
+/* Labels and text */
+form {
+  color: #374151;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+/* Text-like inputs */
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="date"],
+select,
+textarea {
+  width: 100%;
+  padding: 10px 12px;
+  margin-top: 6px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  font-size: 14px;
+  box-sizing: border-box;
+  transition: border-color 0.25s ease, box-shadow 0.25s ease;
+  background: #fff;
+}
+
+/* Focus effect */
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus,
+input[type="date"]:focus,
+select:focus,
+textarea:focus {
+  outline: none;
+  border-color: #2563eb;
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.15);
+}
+
+/* Textarea */
+textarea {
+  resize: vertical;
+  min-height: 90px;
+}
+
+/* Radio and checkbox spacing */
+input[type="radio"],
+input[type="checkbox"] {
+  margin-right: 6px;
+  margin-left: 10px;
+  accent-color: #2563eb;
+}
+
+/* Table alignment */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+td {
+  vertical-align: top;
+  padding-top: 4px;
+}
+
+/* Submit button */
+input[type="submit"] {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 10px;
+  background: #e195ab;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background 0.25s ease, transform 0.15s ease;
+}
+
+/* Hover effect */
+input[type="submit"]:hover {
+  background: #d57b96;
+  transform: translateY(-1px);
+}
+
+/* Active effect */
+input[type="submit"]:active {
+  transform: translateY(0);
+}
+
+/* Small screen responsiveness */
+@media (max-width: 600px) {
+  body {
+    padding: 12px;
+  }
+
+  fieldset {
+    padding: 18px;
+  }
+
+  legend {
+    font-size: 20px;
+  }
+}

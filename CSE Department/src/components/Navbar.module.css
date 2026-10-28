@@ -1,0 +1,29 @@
+.toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 32px;
+  background-color: #1F5263;
+}
+
+.logo {
+  font-weight: 700 !important;
+  letter-spacing: 0.5px;
+}
+
+.navLinks {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  
+}
+
+.navItem {
+  cursor: pointer;
+  font-weight: 500 !important;
+  transition: all 0.3s ease;
+}
+
+.navItem:hover {
+  opacity: 0.75;
+}
